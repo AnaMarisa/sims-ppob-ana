@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/sims-ppob-ana/static/css/main.6548aecf.css",
+    "main.js": "/sims-ppob-ana/static/js/main.26c9a68e.js",
+    "static/media/Illustrasi Login.png": "/sims-ppob-ana/static/media/Illustrasi Login.90372604dd5abec0856f.png",
+    "index.html": "/sims-ppob-ana/index.html",
+    "main.6548aecf.css.map": "/sims-ppob-ana/static/css/main.6548aecf.css.map",
+    "main.26c9a68e.js.map": "/sims-ppob-ana/static/js/main.26c9a68e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6548aecf.css",
+    "static/js/main.26c9a68e.js"
+  ]
+}
