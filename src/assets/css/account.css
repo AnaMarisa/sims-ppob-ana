@@ -1,0 +1,50 @@
+.account-wrapper {
+  margin-top: 30px;
+  height: calc(100vh - 98px);
+}
+
+.account-form {
+  max-width: 636px;
+  margin: 32px auto 0 auto;
+}
+
+.user {
+  text-align: center;
+}
+
+.avatar {
+  position: relative;
+  width: 132px;
+  height: 132px;
+  margin: 0 auto;
+}
+
+.edit-btn:hover {
+  cursor: pointer;
+  opacity: 0.85;
+}
+
+.edit-btn:hover i {
+  opacity: 0.85;
+  border: 1px solid black;
+}
+
+.edit-btn i {
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  padding: 2px;
+  color: black;
+  background-color: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.username {
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 24px;
+}

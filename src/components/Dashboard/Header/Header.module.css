@@ -1,0 +1,73 @@
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-wrapper {
+  width: 200px;
+}
+
+.welcome-txt {
+  margin-top: 20px;
+}
+
+.user-name {
+  margin-top: 5px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.saldo-bg {
+  background-color: #de4c3b;
+  background-image: url("../../../assets/Background\ Saldo.png");
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 627px;
+  border-radius: 20px;
+}
+
+.saldo-wrapper {
+  padding: 24px;
+  color: white;
+}
+
+.saldo-txt,
+.btn-saldo {
+  opacity: 0.85;
+}
+
+.saldo-txt {
+  font-size: 14px;
+}
+
+.saldo-amount {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 24px 0 18px 0;
+  display: flex;
+  align-items: center;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: white;
+  margin-left: 8px;
+}
+
+.btn-saldo:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.btn-saldo {
+  font-size: 12px;
+}

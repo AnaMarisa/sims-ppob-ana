@@ -1,0 +1,12 @@
+.topup-wrapper {
+  margin-top: 46px;
+  display: flex;
+}
+
+.topup-val {
+  width: 614px;
+}
+
+.topup-options {
+  margin-left: 20px;
+}

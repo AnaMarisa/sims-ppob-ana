@@ -1,0 +1,80 @@
+.input-group {
+  position: relative;
+  height: 68px;
+}
+
+.input-group i.append-icon:hover {
+  color: #f42518;
+}
+
+.input-group:hover i.inner-icon {
+  color: #000000;
+}
+
+.account-form .input-group i,
+.register-form .input-group i.inner-icon {
+  color: #000000;
+}
+
+.input-group i {
+  font-size: 14px;
+  position: absolute;
+  color: #e6e6e6;
+  top: 15px;
+}
+
+.label-input {
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+
+.input-box:hover {
+  border: 1px solid #000000;
+}
+
+.input-box:focus-visible {
+  outline: none;
+  border: 1px solid #000000;
+}
+
+input::placeholder {
+  color: #e6e6e6;
+  font-size: 14px;
+}
+
+.login-form .input-box,
+.register-form .input-box {
+  width: 328px;
+}
+
+.account-form .input-box {
+  width: 598px;
+}
+
+.topup-wrapper .input-box {
+  width: 574px;
+}
+
+.input-box {
+  height: 40px;
+  font-size: 14px;
+  line-height: 40px;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  padding-left: 38px;
+}
+
+i.inner-icon {
+  left: 14px;
+}
+
+i.append-icon {
+  right: 14px;
+}
+
+.error-msg {
+  font-size: 11px;
+  text-align: right;
+  color: #f42518;
+  margin-top: 2px;
+}

@@ -1,0 +1,101 @@
+.auth-wrapper {
+  height: 100vh;
+  display: flex;
+}
+
+.auth-box {
+  width: 50%;
+  position: relative;
+  margin: auto 0;
+}
+
+.login-wrapper,
+.register-form {
+  text-align: center;
+}
+
+.logo-txt {
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.sub-header {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 36px 0 50px 0;
+}
+
+.login-form,
+.register-form {
+  width: 368px;
+  margin: 0 auto;
+}
+
+.view-pwd:hover {
+  color: #000000;
+  cursor: pointer;
+}
+
+.img-auth {
+  background-color: #de4c3b;
+  background-image: url("../Illustrasi\ Login.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  height: 100vh;
+  width: 50%;
+}
+
+.registration-txt {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.55);
+  margin-top: 18px;
+}
+
+.registration-link:hover {
+  opacity: 0.85;
+}
+
+.registration-link {
+  text-decoration: none;
+  color: #f42518;
+  font-weight: bold;
+  margin-left: 3px;
+}
+
+.message-wrapper {
+  width: calc(50% - 60px);
+  position: absolute;
+  height: 50px;
+  margin: 0 30px;
+  bottom: 10px;
+}
+
+.bottom-80 {
+  bottom: 80px;
+}
+
+.bottom-40 {
+  bottom: 40px;
+}
+
+.error-box {
+  font-size: 12px;
+  display: flex;
+  height: 26px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 14px;
+  background-color: #f4251812;
+  color: #f42518;
+  border-radius: 3px;
+  margin: 0 auto;
+}
+
+.btn-close:hover {
+  opacity: 0.5;
+}
+.btn-close {
+  cursor: pointer;
+}
